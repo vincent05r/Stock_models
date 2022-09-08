@@ -18,7 +18,7 @@ class aux_functions():
 
     
 
-
+    #compile and fit using tensorflow data window
     def compile_and_fit(model, window, epochs=20, es_patience=4, es_monitor='val_loss', es_mode = 'min'):
         early_stopping = tf.keras.callbacks.EarlyStopping(monitor = es_monitor,
                                                         patience = es_patience,
