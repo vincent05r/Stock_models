@@ -1,0 +1,4 @@
+stock_code,Average MAPE of val data_set,Average MAPE of test data_set,Iteration_number,Training data_set size,Validation data_set size,testing data_set size,model_name,(data with sma5, ema5, ema20, ema50, ema_20_50_gc)
+000001.SZ,19.101614665985107,94.24328804016113,10,3497,749,750,simple_stacked_lstm_stock_1
+000002.SZ,4.377206969261169,4.4533567190170285,10,3497,749,750,simple_stacked_lstm_stock_1
+000008.SZ,15.383229732513428,8.146481728553772,10,3405,730,730,simple_stacked_lstm_stock_1
