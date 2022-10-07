@@ -17,7 +17,7 @@ class time_window_generator():
         self.test_df = test_df
 
 
-        #default batch_size
+        #default batch_size, used in training and evaluation
         self.batch_size = 16
 
 
